@@ -1,0 +1,6 @@
+<launch>
+  <include file="/home/alex/track_ws/src/ros_offboard_pkg/launch/mavros_apm.launch"></include>
+  <include file="/home/alex/track_ws/src/ros_offboard_pkg/launch/mavros_offboard_controller.launch"></include>
+  <include file="/home/alex/track_ws/src/ros_offboard_pkg/launch/mavros_offboard_set_home.launch"></include>
+
+</launch>

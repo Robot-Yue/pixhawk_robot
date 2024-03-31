@@ -1,0 +1,18 @@
+<launch>
+  <arg name="model"/>
+  <arg name="urdf_file" default="$(find xacro)/xacro '$(find common_base)/urdf/car.urdf'" />
+  <param name="robot_description" command="$(arg urdf_file)" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="50.0" />
+  </node>
+
+
+      <!-- 启动相机 -->
+    <!-- <include file="$(find realsense)/launch/realsense_stereo.launch"></include> -->
+
+  <!-- <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <param name="rate" value="50"/>
+  </node> -->
+
+</launch>

@@ -1,0 +1,13 @@
+process[mav_setup_positon-1]: started with pid [32749]
+Traceback (most recent call last):
+  File "/home/alex/track_ws/src/ros_offboard_pkg/nodes/mav_setup_positon", line 10, in <module>
+    from pymavlink.dialects.v10 import ardupilotmega as MAV_APM
+  File "/usr/local/lib/python2.7/dist-packages/pymavlink/dialects/v10/ardupilotmega.py", line 56
+    def __init__(self, buf: Optional[Sequence[int]] = None) -> None:
+                          ^
+SyntaxError: invalid syntax
+[mav_setup_positon-1] process has died [pid 32749, exit code 1, cmd /home/alex/track_ws/src/ros_offboard_pkg/nodes/mav_setup_positon __name:=mav_setup_positon __log:=/home/alex/.ros/log/b95915a8-d848-11ee-9d28-f8633f5c403b/mav_setup_positon-1.log].
+log file: /home/alex/.ros/log/b95915a8-d848-11ee-9d28-f8633f5c403b/mav_setup_positon-1*.log
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
