@@ -5,7 +5,7 @@
 ![图片](https://github.com/Robot-Yue/pixhawk_robot/assets/103190998/ca671793-f6cf-4002-adb9-cae5fd253658)
 
 ### 3. 硬件拓扑图
-![图片](https://github.com/Robot-Yue/pixhawk_robot/assets/103190998/7f5c2476-14ce-43bb-986a-2a9845eade72)
+![图片](https://github.com/Robot-Yue/pixhawk_robot/assets/103190998/f9f99165-8db5-484c-b4ed-13ac01c0f3cf)
 
 ### 4. 通讯架构
 ![图片](https://github.com/Robot-Yue/pixhawk_robot/assets/103190998/75c7ecad-b9c7-4c20-a881-20c580141908)
